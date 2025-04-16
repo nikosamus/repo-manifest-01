@@ -3,7 +3,7 @@
   <remote name="github" fetch="https://github.com"/>
   <remote name="oe" fetch="http://git.openembedded.org"/>
   <remote name="OpenSTLinux" fetch="https://github.com/STMicroelectronics"/>
-  <remote name="nikosamus" fetch="    https://github.com/nikosamus/meta-nikosamus"/>
+  <remote name="nikosamus" fetch="    https://github.com/nikosamus"/>
   
   <default remote="github"/>
   
