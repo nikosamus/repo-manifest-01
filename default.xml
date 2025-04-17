@@ -3,10 +3,11 @@
   <remote name="github" fetch="https://github.com"/>
   <remote name="oe" fetch="http://git.openembedded.org"/>
   <remote name="OpenSTLinux" fetch="https://github.com/STMicroelectronics"/>
-  <remote name="nikosamus" fetch="    https://github.com/nikosamus"/>
+  <remote name="nikosamus" fetch="https://github.com/nikosamus"/>
   
   <default remote="github"/>
   
+  <project name="yocto-builder-devcontainer" path=".devcontainer"                     remote="nikosamus"      revision="main"/>
   <project name="bitbake"                path="layers/openembedded-core/bitbake"      remote="oe"             revision="f40a3a477d5241b697bf2fb030dd804c1ff5839f"/>
   <project name="meta-openembedded"      path="layers/meta-openembedded"              remote="oe"             revision="dda0d53326017d6758ec6bdfdaf2f484c089d13f"/>
   <project name="meta-st-openstlinux"    path="layers/meta-st/meta-st-openstlinux"    remote="OpenSTLinux"    revision="e418de01b7e611c85a6d1634da4685ddf853c209"/>
