@@ -4,6 +4,7 @@
   <remote name="oe" fetch="http://git.openembedded.org"/>
   <remote name="OpenSTLinux" fetch="https://github.com/STMicroelectronics"/>
   <remote name="nikosamus" fetch="https://github.com/nikosamus"/>
+  <remote name="ros" fetch="https://github.com/ros"/>
   
   <default remote="github"/>
   
@@ -16,4 +17,5 @@
   <project name="meta-st-scripts"        path="layers/meta-st/scripts"                remote="OpenSTLinux"    revision="ba56d9daf0174498f2a96cecec0a4864a650444e"/>
   <project name="openembedded-core"      path="layers/openembedded-core"              remote="oe"             revision="336eec6808710f260a5336ca8ca98139a80ccb14"/>
   <project name="meta-nikosamus"         path="layers/meta-nikosamus"                 remote="nikosamus"      revision="main"/>
+  <project name="meta-ros"               path="layers/meta-ros"                       remote="ros"            revision="scarthgap"/>
 </manifest>
